@@ -1,0 +1,70 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Product Table</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 20px;  
+        }  
+        table {  
+            width: 100%;  
+            border-collapse: collapse;  
+        }  
+        th, td {  
+            border: 1px solid #000;  
+            padding: 10px;  
+            text-align: left;  
+        }  
+        th {  
+            background-color: #4CAF50;  
+            color: white;  
+        }  
+        tr:nth-child(even) {  
+            background-color: #f2f2f2;  
+        }  
+        .total {  
+            font-weight: bold;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <h1>Topics</h1>  
+    <p>Properties like padding, border, border-collapse etc.</p>  
+    <h2>Problem Statement</h2>  
+    <p>Add style to your table from yesterday's assignment.</p>  
+    
+    <table>  
+        <tr>  
+            <th>Product Name</th>  
+            <th>Quantity</th>  
+            <th>Price per Unit</th>  
+            <th>Description</th>  
+            <th>Total Price</th>  
+        </tr>  
+        <tr>  
+            <td>Product 1</td>  
+            <td>2</td>  
+            <td>$10</td>  
+            <td>This is product 1</td>  
+            <td>$20</td>  
+        </tr>  
+        <tr>  
+            <td>Product 2</td>  
+            <td>3</td>  
+            <td>$20</td>  
+            <td>This is product 2</td>  
+            <td>$60</td>  
+        </tr>  
+        <tr class="total">  
+            <td>Sum</td>  
+            <td></td>  
+            <td></td>  
+            <td></td>  
+            <td>$80</td>  
+        </tr>  
+    </table>  
+</body>  
+</html>
